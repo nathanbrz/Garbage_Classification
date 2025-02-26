@@ -1,0 +1,2 @@
+/home/nathan.deoliveira1/software/miniforge3/envs/pytorch_gpu/lib/python3.10/site-packages/transformers/optimization.py:640: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(

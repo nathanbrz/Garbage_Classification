@@ -1,0 +1,43 @@
+Python path: /home/nathan.deoliveira1/software/miniforge3/envs/pytorch_gpu/bin/python
+Python 3.10.16
+Using device: cuda
+Epoch 1/8
+----------
+Train Loss: 0.7498, Train Acc: 0.7283
+Val Loss: 0.4117, Val Acc: 0.8567
+Best model saved!
+Epoch 2/8
+----------
+Train Loss: 0.3585, Train Acc: 0.8799
+Val Loss: 0.3281, Val Acc: 0.8861
+Best model saved!
+Epoch 3/8
+----------
+Train Loss: 0.2865, Train Acc: 0.9025
+Val Loss: 0.3181, Val Acc: 0.8844
+Epoch 4/8
+----------
+Train Loss: 0.2434, Train Acc: 0.9168
+Val Loss: 0.2982, Val Acc: 0.8994
+Best model saved!
+Epoch 5/8
+----------
+Train Loss: 0.2091, Train Acc: 0.9295
+Val Loss: 0.3042, Val Acc: 0.8994
+Epoch 6/8
+----------
+Train Loss: 0.1841, Train Acc: 0.9359
+Val Loss: 0.2999, Val Acc: 0.8989
+Epoch 7/8
+----------
+Train Loss: 0.1625, Train Acc: 0.9453
+Val Loss: 0.3009, Val Acc: 0.9000
+Best model saved!
+Epoch 8/8
+----------
+Train Loss: 0.1483, Train Acc: 0.9508
+Val Loss: 0.2981, Val Acc: 0.9067
+Best model saved!
+Training Complete! Best Validation Accuracy: 0.9067
+Evaluating the model on the test set...
+Test Loss: 0.4297, Test Acc: 0.8601
