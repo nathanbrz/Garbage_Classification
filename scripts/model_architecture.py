@@ -45,15 +45,6 @@ class MultiModalGarbageClassifier(nn.Module):
         # [CLASSIFICATION LAYER]
         self.classification_layer = nn.Linear(512, num_classes)
 
-        # Freeze the pretrained modules if specified
-        if pretrained_cnn:
-            for param in self.image_model.parameters():
-                param.requires_grad = False
-
-        if pretrained_distilbert:
-            for param in self.text_model.parameters():
-                param.requires_grad = False
-
     def forward(self, images, text_input):
         """
         Forward pass of the multi-modal model.
