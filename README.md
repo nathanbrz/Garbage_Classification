@@ -6,6 +6,13 @@ This repository implements a multi-modal garbage classification system that leve
 
 ---
 
+> **⚠️ IMPORTANT NOTICE:**  
+> Due to GitHub’s file size restrictions, the complete trained model files (including weights) **are not stored in this repository**.  
+> **Please download the full trained model from our shared folder on Google Drive:**  
+> [**Google Drive - Garbage Classification Models**](https://drive.google.com/drive/folders/1XjlTTl8AQ9VgA9J3L72ppuOrLBZOWQtD?usp=sharing)
+
+---
+
 ## Repository Structure
 
 ```
